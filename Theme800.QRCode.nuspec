@@ -4,11 +4,11 @@
     <id>Theme800.QRCode</id>
     <version>$version$</version>
     <title>二维码插件</title>
-    <authors>SiteServer CMS</authors>
-    <owners>siteserver</owners>
+    <authors>Theme800</authors>
+    <owners>theme800</owners>
     <licenseUrl>https://github.com/theme800/Theme800.QRCode/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/theme800/Theme800.QRCode/</projectUrl>
-    <iconUrl>https://plugins.siteserver.cn/ss.jobs/logo.svg</iconUrl>
+    <iconUrl>https://github.com/theme800/Theme800.QRCode/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>二维码插件用于在模板中通过标签将 URL 地址生成二维码图片并展示在页面中。</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
