@@ -6,12 +6,12 @@
     <title>二维码插件</title>
     <authors>Theme800</authors>
     <owners>theme800</owners>
-    <licenseUrl>https://github.com/theme800/Theme800.QRCode/blob/master/LICENSE</licenseUrl>
+    <license type="expression">MIT</license>
     <projectUrl>https://github.com/theme800/Theme800.QRCode/</projectUrl>
     <iconUrl>https://plugins.siteserver.cn/theme800.qrcode/logo.svg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>二维码插件用于在模板中通过标签将 URL 地址生成二维码图片并展示在页面中。</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>二维码插件</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>二维码</tags>
   </metadata>

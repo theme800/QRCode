@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Theme800.QRCode.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="qrcode.min.js" />
