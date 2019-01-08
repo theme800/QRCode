@@ -28,4 +28,4 @@
 
 ## 源代码
 
-您可以在 [https://github.com/theme800/Theme800.RQCode](https://github.com/theme800/Theme800.RQCode) 中查看并获取二维码插件最新源代码。
+您可以在 [https://github.com/theme800/Theme800.QRCode](https://github.com/theme800/Theme800.QRCode) 中查看并获取二维码插件最新源代码。

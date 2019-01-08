@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Theme800.RQCode")]
-[assembly: AssemblyDescription("SiteServer CMS Jobs plugin.")]
+[assembly: AssemblyTitle("Theme800.QRCode")]
+[assembly: AssemblyDescription("SiteServer CMS QRCode plugin.")]
 [assembly: AssemblyCopyright("Copyright © SiteServer CMS 2018")]
 [assembly: Guid("912232ef-7e2e-4163-910e-b89407f34ec8")]
 [assembly: AssemblyVersion("1.0.0")]

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme800.RQCode", "Theme800.RQCode.csproj", "{2BDA3B34-7682-4338-85F8-E6117A6FC1F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme800.QRCode", "Theme800.QRCode.csproj", "{2BDA3B34-7682-4338-85F8-E6117A6FC1F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

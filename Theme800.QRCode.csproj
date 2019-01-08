@@ -7,8 +7,8 @@
     <ProjectGuid>{2BDA3B34-7682-4338-85F8-E6117A6FC1F9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Theme800.RQCode</RootNamespace>
-    <AssemblyName>Theme800.RQCode</AssemblyName>
+    <RootNamespace>Theme800.QRCode</RootNamespace>
+    <AssemblyName>Theme800.QRCode</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>

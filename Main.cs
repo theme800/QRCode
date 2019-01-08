@@ -1,11 +1,11 @@
 ﻿using System;
 using SiteServer.Plugin;
 
-namespace Theme800.RQCode
+namespace Theme800.QRCode
 {
     public class Main : PluginBase
     {
-        public const string PluginId = "Theme800.RQCode";
+        public const string PluginId = "Theme800.QRCode";
         public const string ElementName = "stl:qrcode";
 
         private const string AttributeUrl = "url";
