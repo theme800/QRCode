@@ -5,13 +5,12 @@ namespace Theme800.QRCode
 {
     public class Main : PluginBase
     {
-        public const string PluginId = "Theme800.QRCode";
-        public const string ElementName = "stl:qrcode";
+        public override void Startup(IService service)
+        {
+            service.AddStlElementParser("stl:qrcode", Parse);
+        }
 
-        private const string AttributeUrl = "url";
-        private const string AttributeSize = "size";
-
-        public static string Parse(IParseContext context)
+        private string Parse(IParseContext context)
         {
             var url = string.Empty;
             var size = 0;
@@ -20,11 +19,11 @@ namespace Theme800.QRCode
             {
                 var value = context.StlAttributes[name];
 
-                if (name.ToLower() == AttributeUrl)
+                if (name.ToLower() == "url")
                 {
                     url = Context.ParseApi.ParseAttributeValue(value, context);
                 }
-                else if (name.ToLower() == AttributeSize)
+                else if (name.ToLower() == "size")
                 {
                     int.TryParse(value, out size);
                 }
@@ -33,7 +32,7 @@ namespace Theme800.QRCode
             url = string.IsNullOrEmpty(url) ? "location.href" : $"'{url}'";
 
             var guid = Guid.NewGuid().ToString();
-            var libUrl = Context.PluginApi.GetPluginUrl(PluginId, "qrcode.min.js");
+            var libUrl = Context.PluginApi.GetPluginUrl(Id, "qrcode.min.js");
 
             return size == 0
                 ? $@"
@@ -54,11 +53,6 @@ new QRCode(document.getElementById('{guid}'), {{
 }});
 </script>
 ";
-        }
-
-        public override void Startup(IService service)
-        {
-            service.AddStlElementParser(ElementName, Parse);
         }
     }
 }
