@@ -15,7 +15,7 @@
 可以使用 url 属性指定二维码地址：
 
 ```
-<stl:qrCode url="https://www.siteserver.cn"></stl:qrCode>
+<stl:qrCode url="https://sscms.com"></stl:qrCode>
 ```
 
 ## 指定二维码图片尺寸
