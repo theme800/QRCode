@@ -4,9 +4,9 @@
     <TargetFrameworks>net452</TargetFrameworks>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageId>Theme800.QRCode</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Title>二维码显示插件</Title>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>Theme800</Authors>
     <Company></Company>
     <Product></Product>
@@ -19,6 +19,7 @@
     <RepositoryUrl>https://github.com/theme800/Theme800.QRCode</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes></PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
